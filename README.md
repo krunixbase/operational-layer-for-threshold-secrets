@@ -34,6 +34,20 @@ It does **not** provide code, services, or runtime components.
 
 ---
 
+## Status
+
+This repository defines operational procedures around threshold secrets
+(manifests, rotation, recovery, and audit artifacts).
+
+It assumes interoperability with the sealed `shamir` v1.0.0 reference
+implementation, treating the cryptographic primitive as stable and
+contractually defined.
+
+This specification may evolve, but changes are expected to be additive
+and explicitly versioned.
+
+---
+
 ## Non-Goals
 
 This project does not:
@@ -90,9 +104,3 @@ This repository is intended for:
 - engineers designing threshold-based systems
 
 ---
-
-## Status
-
-This repository is a **reference specification**.
-
-Changes are expected to be deliberate, reviewed, and versioned.
